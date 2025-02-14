@@ -1,0 +1,10 @@
+services:
+  ml_training_project:
+    build:
+        context: ./
+        dockerfile: Dockerfile
+    container_name: ml_training_container
+    volumes:
+      - ./:/app
+    environment:
+      - PROJECT_NAME=${PROJECT_NAME}
