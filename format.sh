@@ -1,5 +1,5 @@
 #!/bin/sh
 set -x
 
-ruff check . scripts --fix
-ruff format . scripts
+uv run ruff check . scripts --fix
+uv run ruff format . scripts
