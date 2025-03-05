@@ -36,4 +36,4 @@
 
 더 자세한 내용은 아래 링크를 클릭해주세요:
 
-[🛠 install_miniconda.sh detail](install_miniconda_ko.md)
+[🛠 install_miniconda.sh detail](detail_miniconda_ko.md)

@@ -35,4 +35,4 @@ The `install_miniconda.sh` script **automates the installation of Miniconda**,
 
 For detailed instructions, refer to the following:
 
-[🛠 install_miniconda.sh detail](install_miniconda.md)
+[🛠 install_miniconda.sh detail](detail_miniconda.md)

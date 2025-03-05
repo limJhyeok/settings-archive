@@ -12,7 +12,7 @@
 `install_miniconda.sh` 스크립트는 **Miniconda 설치를 자동화**합니다.
 
 - **Linux 용 Miniconda를 자동으로 다운로드**
-- **x86_64 및 aarch64 아키텍처를 지원**
+- **x86_64 및 aarch64 아키텍처 지원**
 - **환경 변수를 설정하고 Conda를 초기화**
 
 ## **🔧 실행 방법**
