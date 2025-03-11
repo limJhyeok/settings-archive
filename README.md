@@ -10,6 +10,7 @@ The repository provides the following scripts:
 
 - `create_ml_training_project.sh`: **Machine Learning training project setup(folder structure, uv, ruff, pre-commit, pytest, coverage)**
 - `install_miniconda.sh`: **Miniconda installation**
+- `install_docker.sh`: **Docker installation**
 
 ## **📌 Script Features**
 ### create_ml_training_project.sh
@@ -23,7 +24,7 @@ The `create_ml_training_project.sh` script provides the following features:
 
 For detailed instructions, refer to the following:
 
-[🛠 create_ml_training_project.sh detail](detail_ml_training.md)
+[🛠 create_ml_training_project.sh detail](detail_readme/detail_ml_training.md)
 
 ### install_miniconda.sh
 
@@ -35,4 +36,14 @@ The `install_miniconda.sh` script **automates the installation of Miniconda**,
 
 For detailed instructions, refer to the following:
 
-[🛠 install_miniconda.sh detail](detail_miniconda.md)
+[🛠 install_miniconda.sh detail](detail_readme/detail_miniconda.md)
+
+### install_docker.sh
+
+The `install_docker.sh` script **automates the installation of Docker**, 
+
+- **Automatically downloads the Docker for Linux**  
+
+For detailed instructions, refer to the following:
+
+[🛠 install_docker.sh detail](detail_readme/detail_docker.md)

@@ -10,7 +10,7 @@
 
 - `create_ml_training_project.sh`: **머신 러닝 학습 프로젝트 셋팅(폴더 구조, uv, ruff, pre-commit, pytest, coverage)**
 - `install_miniconda.sh`: **Miniconda 설치**
-
+- `install_docker.sh`: **Docker 설치**
 
 ## **📌 스크립트 기능**
 ### create_ml_training_project.sh
@@ -24,7 +24,7 @@
 
 더 자세한 내용은 아래 링크를 클릭해주세요:
 
-[🛠 create_ml_training_project.sh detail](detail_ml_training_ko.md)
+[🛠 create_ml_training_project.sh detail](detail_readme/detail_ml_training_ko.md)
 
 ### install_miniconda.sh
 
@@ -36,4 +36,14 @@
 
 더 자세한 내용은 아래 링크를 클릭해주세요:
 
-[🛠 install_miniconda.sh detail](detail_miniconda_ko.md)
+[🛠 install_miniconda.sh detail](detail_readme/detail_miniconda_ko.md)
+
+### install_docker.sh
+
+`install_docker.sh` 스크립트는 다음과 같은 기능을 제공합니다.
+
+- **Linux 전용 Docker 설치**  
+
+더 자세한 내용은 아래 링크를 클릭해주세요:
+
+[🛠 install_docker.sh detail](detail_readme/detail_docker_ko.md)
