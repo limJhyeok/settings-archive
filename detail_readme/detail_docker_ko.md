@@ -53,9 +53,16 @@ Do you want to allow non-root users to run Docker commands? (y/n):
 
 Docker를 제거하려면 다음 명령어를 실행하세요:
 ```sh
-sudo apt-get remove -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+# Uninstall the Docker Engine, CLI, containerd, and Docker Compose packages:
+sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+
+# Delete all images, containers, and volumes:
 sudo rm -rf /var/lib/docker
 sudo rm -rf /var/lib/containerd
+
+# Remove source list and keyrings
+sudo rm /etc/apt/sources.list.d/docker.list
+sudo rm /etc/apt/keyrings/docker.asc
 ```
 그 후 시스템을 재부팅하는 것이 좋습니다.
 
