@@ -47,3 +47,13 @@
 더 자세한 내용은 아래 링크를 클릭해주세요:
 
 [🛠 install_docker.sh detail](detail_readme/detail_docker_ko.md)
+
+### install_docker_compose.sh
+
+`install_docker_compose.sh` 스크립트는 다음과 같은 기능을 제공합니다.
+
+- **Linux 전용 Docker Compose 설치**  
+
+더 자세한 내용은 아래 링크를 클릭해주세요:
+
+[🛠 install_docker_compose.sh detail](detail_readme/detail_docker_compose_ko.md)

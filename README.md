@@ -47,3 +47,13 @@ The `install_docker.sh` script **automates the installation of Docker**,
 For detailed instructions, refer to the following:
 
 [🛠 install_docker.sh detail](detail_readme/detail_docker.md)
+
+### install_docker_compose.sh
+
+The `install_docker_compose.sh` script **automates the installation of Docker Compose**, 
+
+- **Automatically downloads the Docker Compose for Linux**  
+
+For detailed instructions, refer to the following:
+
+[🛠 install_docker_compose.sh detail](detail_readme/detail_docker_compose.md)
